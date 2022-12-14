@@ -1,0 +1,480 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 1445px;
+    width: 100%;
+    background: #ffffff;
+  }
+  body {
+    max-width: 1445px;
+    width: 100%;
+  }
+  .header {
+    max-width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 87.94px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .toggler {
+    visibility: hidden;
+  }
+  .hamburger {
+    visibility: hidden;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .navigation > a:nth-child(1) {
+    color: #000000;
+  }
+  .navigation > a {
+    color: #828282;
+  }
+  a,
+  p {
+    text-decoration: none;
+    text-align: right;
+    width: auto;
+    color: #000000;
+  }
+  hr {
+    display: block;
+    border: 1px solid #828282;
+    width: 65%;
+    margin: auto;
+  }
+  main {
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+  .name_img {
+    max-width: 943px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .my_name {
+    height: 118px;
+    max-width: 123px;
+    width: 100%;
+  }
+  .my_name > p {
+    font-family: Gilroy-Bold;
+    font-size: 47px;
+    line-height: 59px;
+    max-width: 123px;
+    width: 100%;
+  }
+  .my_age {
+    height: 44px;
+    max-width: 156px;
+    width: 100%;
+  }
+  .my_age > p {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .select_lang {
+    transform: rotate(-90deg);
+    align-items: end;
+    max-width: 80px;
+    width: 100%;
+    padding-top: 60px;
+  }
+  .select_lang > a:nth-child(1) {
+    color: #828282;
+  }
+  .select_lang > a:nth-child(2) {
+    color: #000000;
+  }
+  .select_lang > a {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .my_photo {
+    height: 387px;
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: url("https://sun9-78.userapi.com/impf/c638217/v638217710/573eb/MczeTXmqQwI.jpg?size=600x900&quality=96&sign=b6ebf02ca6f6481322774e88ac8dd143&type=album");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 105px;
+  }
+  .about_me {
+    display: flex;
+    background: #f6f6f6;
+    height: 506px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about_me > h3 {
+    background: #f6f6f6;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 17px;
+  }
+  .about_me > p {
+    background: #f6f6f6;
+    height: 218px;
+    max-width: 485px;
+    width: 100%;
+    letter-spacing: 0em;
+    text-align: center;
+    line-height: 22px;
+  }
+  .skills {
+    max-width: 943px;
+    width: 100%;
+    margin: 180px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .skills > p {
+    display: flex;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 87.2px;
+    padding-top: 69.1px;
+  }
+  .icon_skills {
+    max-width: 943px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .icon_skills > img {
+    height: 206px;
+    width: 166px;
+  }
+  .portfolio {
+    display: flex;
+    background: #f6f6f6;
+    margin: 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .portfolio > h3 {
+    margin-top: 113px;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #f6f6f6;
+  }
+
+  .site_created {
+    display: flex;
+    background-image: url("img/site-1.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 510px;
+    max-width: 936px;
+    width: 100%;
+    margin-top: 47px;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .signature {
+    padding-top: 45px;
+    display: flex;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
+    padding-bottom: 97px;
+  }
+  .signature > a {
+    background: #f6f6f6;
+    text-decoration: underline;
+  }
+  .site_created-2 {
+    display: flex;
+    background-image: url("img/reebok_website-2.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 510px;
+    max-width: 936px;
+    width: 100%;
+    margin-top: 47px;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .site_created-3 {
+    display: flex;
+    background-image: url("img/reebok_website-3.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 510px;
+    max-width: 936px;
+    width: 100%;
+    margin-top: 47px;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 114px;
+  }
+  /* .text_foot {
+  } */
+  .text_foot > p {
+    padding: 50px 0;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .text_foot > h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 43px;
+    max-width: 146px;
+    width: 100%;
+  }
+  .btn {
+    height: 42px;
+    max-width: 180px;
+    width: 100%;
+    background: #070707;
+    align-items: center;
+    border-radius: 50px;
+  }
+  button {
+    cursor: pointer;
+    background: #070707;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    height: 42px;
+    max-width: 180px;
+    width: 100%;
+    border-radius: 50px;
+  }
+  .icon_link {
+    height: 41px;
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 86px 0;
+    flex-wrap: wrap;
+  }
+  .text_end {
+    width: 100%;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #828282;
+    padding-bottom: 123px;
+  }
+  input {
+    visibility: hidden;
+  }
+  @media (max-width: 375px) {
+    .header {
+      position: absolute;
+    }
+    hr {
+      visibility: hidden;
+    }
+    .navigation {
+      position: absolute; /* задаем относительное позиционирование */
+      max-width: 375px; /* определяем размеры блока */
+      width: 100%;
+      text-align: left;
+      display: block;
+      visibility: visible;
+    }
+    .name_img {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: flex-start;
+    }
+
+    .my_photo {
+      height: 478px;
+      padding: 0;
+      margin: 0;
+    }
+    .icon_skills {
+      display: flex;
+      flex-direction: column;
+    }
+    .icon_skills > img {
+      padding-bottom: 81px;
+      margin-bottom: 0px;
+    }
+    .site_created {
+      background-image: url("img/imgMob.svg");
+      margin-top: 65px;
+      height: 406px;
+    }
+    .site_created-2 {
+      background-image: url("img/reebok_webmob.svg");
+      margin: 0 auto;
+      height: 406px;
+      width: 317px;
+    }
+    .site_created-3 {
+      background-image: url("img/reebok_webmob-2.svg");
+      margin: 0 auto;
+      height: 406px;
+      width: 317px;
+    }
+    .signature {
+      padding-top: 25px;
+    }
+    #menu__toggle {
+      opacity: 0;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+      transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+      top: 0;
+      transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .navigation {
+      visibility: visible;
+      left: 100px;
+    }
+    /* #menu__toggle:checked ~ .select_lang {
+      visibility: visible;
+    } */
+    .select_lang {
+      visibility: hidden;
+      height: 0px;
+    }
+    .menu__btn {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 40px;
+      left: 320px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+      transition-duration: 0.25s;
+    }
+    .menu__btn > span::before {
+      content: "";
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: "";
+      top: 8px;
+    }
+
+    .navigation {
+      display: block;
+      position: absolute;
+      visibility: hidden;
+      top: 0;
+      left: 100%;
+      width: 300px;
+      height: 100%;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      background-color: #fff;
+      box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.25s;
+    }
+
+    a {
+      display: block;
+      padding: 12px 24px;
+      color: #333;
+      font-family: Gilroy-Bold;
+      font-size: 34px;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: left;
+      text-decoration: none;
+      transition-duration: 0.25s;
+    }
+    .a:hover {
+      background-color: #fff;
+    }
+  }
